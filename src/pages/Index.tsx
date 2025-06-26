@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
@@ -8,6 +7,7 @@ import { ComponentSection } from "@/components/ComponentSection";
 import { buttonComponents } from "@/data/buttonComponents";
 import { cardComponents } from "@/data/cardComponents";
 import { modalComponents } from "@/data/modalComponents";
+import { chartComponents } from "@/data/chartComponents";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("buttons");
@@ -36,6 +36,14 @@ const Index = () => {
             title="Modals"
             description="Modal dialogs and overlays for displaying important information."
             components={modalComponents}
+          />
+        );
+      case "charts":
+        return (
+          <ComponentSection
+            title="Charts"
+            description="Interactive data visualization components built with Recharts for displaying analytics and metrics."
+            components={chartComponents}
           />
         );
       default:
