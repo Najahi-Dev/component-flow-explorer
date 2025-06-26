@@ -8,6 +8,7 @@ import { buttonComponents } from "@/data/buttonComponents";
 import { cardComponents } from "@/data/cardComponents";
 import { modalComponents } from "@/data/modalComponents";
 import { chartComponents } from "@/data/chartComponents";
+import { navigationComponents } from "@/data/navigationComponents";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState("buttons");
@@ -44,6 +45,14 @@ const Index = () => {
             title="Charts"
             description="Interactive data visualization components built with Recharts for displaying analytics and metrics."
             components={chartComponents}
+          />
+        );
+      case "navigation":
+        return (
+          <ComponentSection
+            title="Navigation"
+            description="Navigation components including navigation bars, sidebars, and top bars with smooth animations."
+            components={navigationComponents}
           />
         );
       default:
