@@ -26,9 +26,9 @@ import { Menu, Home, User, Settings, Bell, Search } from 'lucide-react';
 export const navigationComponents = [
   {
     id: 'horizontal-nav',
-    title: 'Horizontal Navigation',
+    name: 'Horizontal Navigation',
     description: 'Main navigation menu with dropdown support',
-    component: (
+    preview: (
       <NavigationMenu className="animate-fade-in">
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -87,9 +87,9 @@ export const navigationComponents = [
   },
   {
     id: 'sidebar-nav',
-    title: 'Sidebar Navigation',
+    name: 'Sidebar Navigation',
     description: 'Collapsible sidebar with menu items',
-    component: (
+    preview: (
       <div className="w-full h-96 border rounded-lg overflow-hidden">
         <SidebarProvider>
           <div className="flex h-full">
@@ -161,9 +161,9 @@ export const navigationComponents = [
   },
   {
     id: 'top-bar',
-    title: 'Top Navigation Bar',
+    name: 'Top Navigation Bar',
     description: 'Header navigation with actions and branding',
-    component: (
+    preview: (
       <div className="w-full border rounded-lg overflow-hidden animate-fade-in">
         <header className="bg-background border-b px-6 py-4">
           <div className="flex items-center justify-between">
@@ -239,9 +239,9 @@ export const navigationComponents = [
   },
   {
     id: 'animated-nav',
-    title: 'Animated Navigation',
+    name: 'Animated Navigation',
     description: 'Navigation with smooth animations and transitions',
-    component: (
+    preview: (
       <div className="w-full border rounded-lg overflow-hidden">
         <nav className="bg-background border-b px-6 py-4 animate-fade-in">
           <div className="flex items-center justify-between">
