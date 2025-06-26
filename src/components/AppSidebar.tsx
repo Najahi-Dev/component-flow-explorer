@@ -1,5 +1,4 @@
-
-import { Package2, Square, CreditCard, Dialog } from "lucide-react";
+import { Package2, Square, CreditCard, MessageSquare } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -20,7 +19,7 @@ interface AppSidebarProps {
 const navigationItems = [
   { id: "buttons", title: "Buttons", icon: Square },
   { id: "cards", title: "Cards", icon: CreditCard },
-  { id: "modals", title: "Modals", icon: Dialog },
+  { id: "modals", title: "Modals", icon: MessageSquare },
 ];
 
 export function AppSidebar({ activeSection, onSectionChange }: AppSidebarProps) {
