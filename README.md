@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/c8702896-98b9-497f-acda-df3e4ad112f3
+**URL**: https://component-flow-explorer.vercel.app
 
 ## How can I edit this code?
 
