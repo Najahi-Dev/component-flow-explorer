@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# Component Flow Explorer
 
-## Project info
+A developer tool for exploring, editing, and deploying component flows in modern React projects.
 
-**URL**: https://component-flow-explorer.vercel.app
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+Component Flow Explorer is designed to visualize, modify, and manage the flow of React components within your web applications. It offers intuitive tools for both interactive exploration and rapid iteration, streamlining both development and documentation processes.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c8702896-98b9-497f-acda-df3e4ad112f3) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Component Flow Visualization:** Visualize how components interact and depend on each other.
+- **Live Editing:** Modify components in real time with instant feedback.
+- **Integrated Deployment:** Deploy changes directly from the explorer.
+- **Multiple Edit Modes:** Use Lovable (AI-driven prompts), local development, or GitHub-based editing.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Quick Start
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Use Lovable
 
-Follow these steps:
+- Visit [Lovable Project](https://lovable.dev/projects/c8702896-98b9-497f-acda-df3e4ad112f3) to edit with AI prompts.
+- All changes are automatically committed to this repository.
+
+### 2. Local Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone https://github.com/Najahi-Dev/component-flow-explorer.git
-
-# Step 2: Navigate to the project directory.
 cd component-flow-explorer
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
 npm run dev
 ```
+> Requires Node.js and npm. [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-**Edit a file directly in GitHub**
+### 3. Edit on GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Open files directly on GitHub.
+- Click the pencil icon to edit, then commit your changes.
 
-**Use GitHub Codespaces**
+### 4. GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Click the "Code" button on the repository home page.
+- Select "Codespaces" and start a new cloud IDE session.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Tech Stack
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **TypeScript** (97.8%)
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **shadcn-ui**
+- **CSS**
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c8702896-98b9-497f-acda-df3e4ad112f3) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+- Publish instantly through [Lovable](https://lovable.dev/projects/c8702896-98b9-497f-acda-df3e4ad112f3) (Share → Publish).
 
-Yes, you can!
+### Custom Domains
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Connect via Project → Settings → Domains → Connect Domain.
+- See the [Lovable custom domain guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## Contributing
+
+Pull requests and issues are welcome! Please open an issue to discuss your idea or bug before submitting a PR.
+
+---
+
+## License
+
+Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
